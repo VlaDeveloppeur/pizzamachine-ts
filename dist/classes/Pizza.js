@@ -1,17 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Pizza {
-    constructor(recipe) {
-        this._recipe = recipe;
+    constructor(name, price, ingredients) {
+        this._name = name;
+        this._price = price;
+        this._ingredients = ingredients;
     }
 }
 exports.default = Pizza;
-Pizza.FROMAGE = "fromage";
-Pizza.AMERICANO = "americano";
-Pizza.VEGAN = "vegan";
-Pizza.KINDS = [
-    Pizza.FROMAGE,
-    Pizza.AMERICANO,
-    Pizza.VEGAN,
-];
 //# sourceMappingURL=Pizza.js.map

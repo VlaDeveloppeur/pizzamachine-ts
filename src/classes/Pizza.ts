@@ -1,17 +1,13 @@
 export default class Pizza{
-    static readonly FROMAGE: string = "fromage";
-    static readonly AMERICANO: string = "americano";
-    static readonly VEGAN: string = "vegan";
-
-    private _recipe:string;
+  protected _name: string;
+  protected _price: number;
+  protected _ingredients:Array<string>;
     
-    constructor(recipe:string){
-        this._recipe=recipe;
+    constructor(name:string, price: number, ingredients:Array<string>){
+      this._name = name;
+      this._price = price;
+      this._ingredients = ingredients;
     }
 
-    static readonly KINDS: Array<string> = [
-      Pizza.FROMAGE,
-      Pizza.AMERICANO,
-      Pizza.VEGAN,
-    ];
+    
 }
