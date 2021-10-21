@@ -1,4 +1,3 @@
-
 export default abstract class User{
 
     constructor(

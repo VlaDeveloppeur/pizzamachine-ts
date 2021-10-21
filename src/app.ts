@@ -12,6 +12,11 @@ function init() {
     order.add_pizza(
       new Pizza(Pizza.FROMAGE)
     );
+
+
+
+
+    //scenario
   
 }
   init();
