@@ -1,6 +1,6 @@
-import Resource from "./Topping";
+import Topping from "./Topping";
 
-export default class Potato extends Resource {
+export default class Potato extends Topping{
   constructor(quantity: number = 0) {
     super("potato", quantity);
   }

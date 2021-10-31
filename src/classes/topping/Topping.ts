@@ -1,4 +1,4 @@
-export default abstract class Resource {
+export default abstract class Topping {
     protected _name: string;
     protected _quantity: number;
   
