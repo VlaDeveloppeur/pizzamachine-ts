@@ -10,6 +10,9 @@ class PizzaFactory {
             case PizzaFactory.QUATRE_SAISONS.name:
                 return new Pizza_1.default('Quatre Saisons', 10, PizzaFactory.QUATRE_SAISONS.ingredients);
                 break;
+            case PizzaFactory.QUATRE_FROMAGES.name:
+                return new Pizza_1.default('Quatre Saisons', 10, PizzaFactory.QUATRE_FROMAGES.ingredients);
+                break;
         }
     }
 }
@@ -21,7 +24,9 @@ exports.default = PizzaFactory;
 //   return new Order(user, pizza);
 // }
 PizzaFactory.QUATRE_SAISONS = { name: "QUATRE SAISONS", ingredients: ['olives', 'fromage'] };
+PizzaFactory.QUATRE_FROMAGES = { name: "QUATRE SAISONS", ingredients: ['fromage 1', 'fromage 2'] };
 PizzaFactory.RECIPES = [
-    PizzaFactory.QUATRE_SAISONS
+    PizzaFactory.QUATRE_SAISONS,
+    PizzaFactory.QUATRE_FROMAGES
 ];
 //# sourceMappingURL=PizzaFactory.js.map

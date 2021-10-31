@@ -1,5 +1,5 @@
 {
-  "name": "vending-machine",
+  "name": "pizza-machine",
   "version": "1.0.0",
   "description": "OOP good practices with Typescript",
   "main": "dist/app.js",
@@ -9,7 +9,7 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "Alexandre Leroux <alex@sherpa.one> (https://sherpa.one)",
+  "author": "Kezibri Hiba & Hayrapetyan Vladimir",
   "license": "UNLICENSED",
   "devDependencies": {
     "@types/jest": "^27.0.2",
