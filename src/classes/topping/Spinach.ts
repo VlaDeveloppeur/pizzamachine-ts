@@ -1,7 +1,7 @@
-import Resource from "./Resource";
+import Resource from "./Topping";
 
 export default class Spinach extends Resource {
   constructor(quantity: number = 0) {
-    super("épinard", quantity);
+    super("spinach", quantity);
   }
 }
